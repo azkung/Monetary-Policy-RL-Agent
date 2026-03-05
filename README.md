@@ -13,12 +13,18 @@ Training curves, benchmark comparisons, trajectory plots, and COVID-era evaluati
 
 ```
 src/
-  config.py        — all hyperparameters (single source of truth)
-  fed_env.py       — environment, LLM pipeline, and wrappers
-notebooks/
-  prototypes/      — development notebooks (01–04)
-  data/            — offline belief state databases
-runs/              — training checkpoints and logs
+  config.py          — all hyperparameters (single source of truth)
+  fed_env.py         — environment, LLM pipeline, and wrappers
+  covid_env.py       — COVID-era evaluation environment
+  train.py           — training entry point
+  benchmark.py       — Taylor Rule baseline
+  build_state_db.py  — offline LLM belief state DB builder
+  clean_belief_db.py — DB cleaning utilities
+  plot_belief_db.py  — belief state visualization
+scripts/
+  simulator_realism.py — macro simulator validation plots
+results/
+  paper_run/         — training curves, benchmark comparisons, trajectory plots
 ```
 
 ---
