@@ -1,4 +1,6 @@
-# Monetary Policy RL Agent — CS234
+# Monetary Policy RL Agent — Stanford CS234
+
+> **Note:** This is a clean copy of the original project repository. The original was not published due to API keys present in the commit history.
 
 **Authors:** Alexander Kung, Aaron Villanueva, Cristofer Arellano Acosta
 
