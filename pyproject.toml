@@ -1,0 +1,13 @@
+[project]
+name = "monetary-policy-rl-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "matplotlib~=3.10.8",
+  "numpy~=2.4.2",
+  "gymnasium~=1.2.3",
+  "stable_baselines3~=2.7.1",
+  "sb3_contrib~=2.7.1",
+]
