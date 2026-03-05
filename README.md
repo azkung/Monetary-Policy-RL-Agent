@@ -353,9 +353,7 @@ AnthropicBackend(model="claude-haiku-4-5-20251001")
 ## Setup
 
 ```bash
-python -m venv .venv
-.venv/Scripts/activate
-pip install -r requirements.txt
+uv sync
 ```
 
 Requires:
